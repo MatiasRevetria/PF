@@ -1,0 +1,17 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+}
+
+.wrapper{
+    width: 420px;
+    color: #fff;
+    text-align: center;
+    background-color: purple;
+}
