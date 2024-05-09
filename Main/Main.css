@@ -1,3 +1,18 @@
 *{
-    font-size: 62.5%;
+    box-sizing: border-box;
 }
+
+header{
+    position: fixed;
+    width: 100vw;
+    text-align: center;
+}
+
+.Main-Things{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+

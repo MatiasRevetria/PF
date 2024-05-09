@@ -1,5 +1,5 @@
-html{
-    font-size: 62.5%;
+*{
+    box-sizing: border-box;
 }
 
 body{
@@ -9,14 +9,14 @@ body{
     align-items: center;
     min-height: 100vh;
     background: url(img/566159.jpg) no-repeat;
-    background-size: cover;
+    background-position: center;
 
 }
 
 .wrapper{
     position: absolute;
-    width: 40em;
-    color: #000000;
+    width: 30em;
+    color: #ffffff;
     text-align: center;
     backdrop-filter: blur(10px);
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
@@ -29,13 +29,51 @@ body{
 
 .wrapper .input-box{
     width: 100%;
-    height: 50px;
+    height: 5vh;
+    margin-bottom: 3vh;
 }
 
 .input-box input{
     width: 100%;
+    height: 100%;
     border-radius: 5em;
     border: none;
     outline: none;
     box-sizing: border-box;
+    padding-left: 2em;
+}
+
+.wrapper .btn{
+    width: 100%;
+    height: 7vh;
+    margin-top: 2em;
+}
+
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember-forgot a{
+    color: #ffffff;
+}
+
+.btn input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5em;
+    cursor: pointer;
+    text-decoration: solid;
+    font-weight: 600;
+}
+
+.btn input:hover{
+    background-color: #bdaeae;
+    font-style: italic;
+}   
+
+.register a{
+    color: #ffffff;
 }
