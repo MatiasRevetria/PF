@@ -32,6 +32,13 @@ body{
     width: 100%;
     height: 5vh;
     margin-bottom: 3vh;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.wrapper .btn{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .input-box input{
@@ -53,6 +60,8 @@ body{
 .remember-forgot{
     display: flex;
     justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .remember-forgot a{
