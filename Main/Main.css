@@ -137,8 +137,16 @@ footer {
 
   .banner img{
     width: 40vw;
+<<<<<<< HEAD
     height: 15vh;
   }
+=======
+    height: 60vh;
+    margin: 5em;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.5);
+}
+>>>>>>> 1de98e3dc2d738309484dfbc8a649620aad390f6
 
   .BOX {
     width: 60vw;
@@ -146,9 +154,59 @@ footer {
     text-align: left;
   }
 
+<<<<<<< HEAD
   .BOX h1,
   p,
   ul {
     font-size: 15px;
   }
+=======
+
+.infoPS{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.BOX{
+    border-radius: 4px;
+    width: 20vw;
+    height: auto;
+    margin: 3em;
+    padding: 2em;
+    font-size: 14px;
+}
+
+.BOX li{
+    padding: 0.5em;
+}
+
+.BOX h3{
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 15px;
+}
+
+.BOX:hover{
+    background-color: #fff;
+    color: black;
+}
+
+@media only screen and (max-width:1250px){
+    h3,p,ul{
+        font-size: 15px;
+    }
+    .BOX{
+        width: 60vw;
+        height: auto;
+        text-align: left;
+    }
+
+    .video iframe{
+        width: 100vw;
+        height: 10vh;
+    }
+>>>>>>> 1de98e3dc2d738309484dfbc8a649620aad390f6
 }
