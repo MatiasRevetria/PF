@@ -22,7 +22,7 @@ Animal.prototype = {
 
 const Dog = Object.create(Animal.prototype);
 
-function cambiar(){
-    let x = document.getElementsByClassName("banner"); 
-    x[0].innerHTML = "GOTY";
-};
+function cambiar() {
+    let x = document.getElementsByClassName("banner");
+    x[0].textContent = "GOTY"
+}
