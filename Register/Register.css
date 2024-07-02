@@ -7,6 +7,10 @@
     font-family: "Outfit", sans-serif;
 }
 
+.error{
+    color: red;
+}
+
 body{
     display: flex;
     flex-flow: row wrap;
@@ -16,6 +20,13 @@ body{
 }
 
 .box{
-    width: 20vw;
-    background-color: blueviolet;
+    width: 30vw;
+    backdrop-filter: blur(-10px);
+    border-radius: 4px;
+    text-align: center;
+}
+
+.box .input-box{
+    width: 100%;
+    padding: 5px;
 }

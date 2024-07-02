@@ -9,20 +9,28 @@
 <body>
     <div class="box">
         <h1>CREATE AN ACOUNT</h1>
-        <form action="#">
-            <div class="nombre">
-                <input type="text" placeholder="Nombre">
+        <form action="#" class="form">
+            <div class="error" id="error1"></div>
+            <div class="input-box">
+                <input type="text" placeholder="Nombre" id="Nombre">
             </div>
-            <div class="apellido">
-                <input type="text" placeholder="Apellido">
+            <div class="error" id="error2"></div>
+            <div class="input-box">
+                <input type="text" placeholder="Apellido" id="Apellido">
             </div>
-            <div class="password">
-                <input type="text" placeholder="Password">
+            <div class="error" id="pass1"></div>
+            <div class="input-box">
+                <input type="password" placeholder="Password" id="password1">
             </div>
-            <div class="password">
-                <input type="text" placeholder="Confirm password">
+            <div class="error" id="pass2"></div>
+            <div class="input-box">
+                <input type="password" placeholder="Confirm password" id="password2">
+            </div>
+            <div class="btn">
+                <input type="submit" value="Enviar">
             </div>
         </form>
     </div>
+    <script src="./Register.js"></script>
 </body>
 </html>
